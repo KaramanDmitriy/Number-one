@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body {
+    font-family: 'PT Serif', serif;
+    background-image: url(https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?w=2000);
+    padding: 100px 0;
+
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+    border-radius: 35px;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 35px 0 35px 0;
+    font-size: 30px;
+    background: url(https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80) no-repeat center center / cover;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #46299E;
+    opacity: 0.1;
+    border-radius: 50px 0 50px 0;
+
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    border: 2px solid white;
+    background: url(../images/cat.png) no-repeat center center / contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nav ul {
+    display: flex;
+    background: #E1DFFB;
+    margin: 10px 0;
+}
+
+.nav li {
+
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid white;
+    transition: background .3s case;
+}
+
+.nav li a:hover {
+    background: #BDB9FD;
+
+}
+
+.content-wrapper {
+    display: flex;
+
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+
+}
+
+.skills li {
+     padding: 10px 0;
+     transition: transform .5s case;
+     cursor: pointer;
+
+}
+
+.skills li:hover {
+     transform: translateX(10px);
+}
+img {
+    width: 18px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+footer a {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background: #E1DFFB;
+    border: 1px solid black;
+    border-radius: 20px 0 20px 0;
+
+}
