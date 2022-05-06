@@ -85,7 +85,7 @@ h3 {
     text-decoration: none;
     color: black;
     border-right: 1px solid white;
-    transition: background .3s case;
+    transition: .3s;
 }
 
 .nav li a:hover {
@@ -112,7 +112,7 @@ h3 {
 
 .skills li {
      padding: 10px 0;
-     transition: transform .5s case;
+     transition: .5s;
      cursor: pointer;
 
 }
